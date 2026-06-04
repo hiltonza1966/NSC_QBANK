@@ -1,0 +1,548 @@
+Copyright reserved Please turn over
+MARKS: 150
+MARKING PRINCIPLES:
+1.
+Unless otherwise stated in the marking guidelines, penalties for foreign items are applied only if the candidate is not losing marks elsewhere in the question for that item (no penalty for misplaced item). No double penalty applied.
+2.
+Penalties for placement or poor presentation (e.g. details) are applied only if the candidate is earning marks on the figures for that item.
+3.
+Unless otherwise stated, give full marks for correct answer. If answer is incorrect, mark workings.
+4.
+If a pre-adjustment figure is shown as a final figure, allocate the part-mark as a working mark for that figure (not the method mark for the answer). Note: if figures are stipulated in memo for components of workings, these do not carry the method mark for final answer as well.
+5.
+Unless otherwise indicated, the positive or negative effect of any figure must be considered to award the mark. If no + or – sign or bracket is provided, assume that the figure is positive.
+6.
+Where indicated, part-marks may be awarded to differentiate between differing qualities of answers from candidates.
+7.
+If candidates provide more than the required number of responses, inspect all responses to give benefit to the candidate. Penalties may be applied for foreign entries if candidates earn full marks on a question (max -2 per Q).
+8.
+Where penalties are applied, the marks for that section of the question cannot be a final negative.
+9.
+Where method marks are awarded for operation, marker must inspect reasonableness of the answer.
+10.
+Operation means 'check operation'. 'One part correct' means operation and one part correct. Note: check operation must be +, -, x, ÷ as per candidate’s calculation (if valid) or per memo.
+11.
+In calculations, do not award marks for workings if numerator & denominator are swapped – this also applies to ratios.
+12.
+In awarding method marks, ensure that candidates do not get full marks for any item that is incorrect at least in part. Indicate with a .
+13.
+Be aware of candidates who provide valid alternatives beyond the marking guideline. Note that one comment could contain different aspects.
+14.
+Codes: f = foreign item; p = placement/presentation.
+15.
+This memorandum is not for public distribution, as certain items might imply incorrect treatment. The adjustments made are due to nuances in certain questions.
+These marking guidelines consist of 12 pages.
+ACCOUNTING P1
+NOVEMBER 2024
+MARKING GUIDELINES
+NATIONAL
+SENIOR CERTIFICATE
+GRADE 12
+Accounting/P1 2 DBE/November 2024
+NSC – Marking Guidelines
+Copyright reserved Please turn over
+QUESTION 1
+Calculate:
+1.1.1
+Depreciation on equipment on 29 February 2024
+WORKINGS
+ANSWER
+2
+472 500 – 344 700
+127 800 
+1.1.2
+Cost price of vehicles on 29 February 2024
+WORKINGS
+ANSWER
+4
+1 250 000  – 240 000  + 320 000 
+OR
+Vehicles
+1 250 000
+one mark
+240 000
+one mark
+320 000
+one mark
+1 330 000
+one m. mark
+If a working is shown as a final answer, award working mark only
+1 330 000  one part correct
+1.1.3
+Depreciation on vehicles on 29 February 2024.
+WORKINGS
+ANSWER
+5
+Depreciation on new vehicle
+320 000 x [20/100 x 6/12]
+32 000
+*
+Depreciation on vehicle traded in
+[240 000 – 73 600]
+166 400 x [20/100 x 6/12]
+16 640
+*
+Depreciation on remaining vehicles
+132 720
+should include R132 720
+181 360
+*
+* one part correct
+1.1.4
+Profit/Loss on vehicle traded in on 1 September 2023
+WORKINGS
+ANSWER
+5
+one mark one m. mark
+(73 600 + 16 640) see 1.1.3
+240 000  – 90 240  – 153 660 
+149 760 three marks
+OR
+Asset disposal
+240 000
+one mark
+90 240
+one mark one m. mark
+3 900
+one m. mark
+153 660
+one mark
+If a working is shown as a final answer, award working mark/s only
+3 900  one part correct
+NOTE:
+The relevant amounts, calculated above, must be transferred to QUESTION 1.2, the Statement of Comprehensive Income.
+Accounting/P1 3 DBE/November 2024
+NSC – Marking Guidelines
+Copyright reserved Please turn over
+1.2
+Statement of Comprehensive Income for the year ended 29 February 2024
+Sales [4 780 900 x 1,6] [115 000 x 0,2]
+7 649 440  – 23 000 
+OR
+[4 665 900 x 1,6] [115 000 x 1,4]
+7 465 440 two marks + 161 000 two marks
+7 626 440
+*
+Both figures must be added / subtracted
+Cost of sales
+(4 780 900)
+Gross profit Sales – CofS 6
+2 845 540
+
+Other income operation
+1 902 000
+
+Service fee income
+1 757 700
+Profit on sale of asset ** see 1.1.4
+3 900
+
+Rent income [10 695 x 2] one mark two marks
+158 100  – 21 390  OR 104 625 + 32 085
+136 710
+*
+Provision for bad debts adjustment #
+3 690
+
+Gross operating income GP + OI 9
+4 747 540
+
+Operating expenses operation
+(3 371 340)
+
+Audit fees
+79 000
+Sundry operating expenses
+119 900
+Bad debts
+24 780
+Packing material
+58 700
+
+Trading stock deficit $
+7 400
+
+Insurance [100 800 x 3/15] OR [6 720 x 3]
+100 800  – 20 160  OR 100 800 x 12/15
+80 640
+*
+Salaries and Wages [21 840 + 11 760] [GS x 10%]
+1 425 600  + 33 600  + 3 360 
+1 462 560
+*
+Directors fees [41 000 x 4]
+1 065 200  + 164 000 
+1 229 200
+*
+Depreciation @ [127 800 + 181 360] see 1.1.1 see 1.1.3
+18
+309 160
+
+Operating profit GOI – OE
+1 376 200
+
+Interest income balancing figure (accept a -ve figure)
+151 200
+
+Profit before interest expense NPBT + Int. expense
+1 527 400
+
+Interest expense
+(149 400)
+Net profit before tax NPAT + IT
+1 378 000
+
+Income tax NPAT x 28/72
+(385 840)
+
+Net profit after tax
+992 160
+-1 foreign items (max -2) i.e SFP items; -1 presentation (max -1). *one part correct
+** If calculated as loss in 1.1.4 award method mark under operating expenses.
+# Prov. for bd adjust should be shown as an income.
+$ Trading stock deficit should be shown as an expense.
+@ Both figures should be added to award a method mark.
+When awarding method marks, refer to Principle 10; follow the candidate’s operation.
+TOTAL MARKS
+55
+Accounting/P1 4 DBE/November 2024
+NSC – Marking Guidelines
+Copyright reserved Please turn over
+QUESTION 2
+EYBERS LTD
+2.1
+RETAINED INCOME NOTE FOR THE YEAR ENDED 29 FEBRUARY 2024
+Balance at the beginning of the year
+573 720
+8
+Net profit after tax
+(744 860  ÷ 40% ) OR 744 860 x 100/40
+1 862 150
+*
+Repurchase of shares ignore brackets
+(64 600)
+
+Ordinary share dividends
+(744 860)
+Interim dividend
+416 000
+
+Final dividend OSD – Int Div.
+328 860
+
+Balance at the end of the year
+Check operation; shares repurchased and OSD must be subtracted
+1 626 410
+*
+-1P if no details (max -1) *one part correct
+OR
+2.1
+RETAINED INCOME NOTE FOR THE YEAR ENDED 29 FEBRUARY 2024
+Balance at the beginning of the year
+573 720
+8
+Net profit after tax (1 458 167  x 1,175 )
+1 713 346
+*
+Repurchase of shares ignore brackets
+(64 600)
+
+Ordinary share dividends
+(744 860)
+Interim dividend
+416 000
+
+Final dividend OSD – Int Div.
+328 860
+
+Balance at the end of the year
+Check operation; shares repurchased and OSD must be subtracted
+1 477 606
+*
+-1P if no details (max -1) *one part correct
+Accounting/P1 5 DBE/November 2024
+NSC – Marking Guidelines
+Copyright reserved Please turn over
+2.2
+CASH FLOW STATEMENT FOR THE YEAR ENDED 29 FEBRUARY 2024
+CASH FLOW FROM OPERATING ACTIVITIES
+Cash generated from operations
+Interest paid
+# Taxation paid
+44 675  + 462 000  + 66 650 
+OR – 44 675 – 462 000 – 66 650
+(573 325)
+*
+# Dividends paid
+(1 200 000 x 17/100) [744 860 – 328 860]
+204 000  + 416 000  8
+(620 000)
+*
+CASH FLOW FROM INVESTING ACTIVITIES
+CASH FLOW FROM FINANCING ACTIVITIES
+New shares issued
+4 000 000
+
+Shares repurchased (34 000 x 7,60) (34 000 x 1,90)
+258 400  + 64 600  see 2.1
+(323 000)
+*
+17
+Both figures added
+Loan repaid 6
+(480 000)
+
+If no bracket, award one mark
+NET CHANGE IN CASH AND CASH EQUIVALENTS
+296 460
+CASH AND CASH EQUIVALENTS AT THE BEGINNING OF THE YEAR
+(106 680)
+
+If no bracket, award one mark
+CASH AND CASH EQUIVALENTS AT THE END OF THE YEAR 3
+189 780 operation
+
+* one part correct, reflected as an outflow (brackets).
+-1 poor presentation (max -1)
+# Be alert to alternative workings such as ledger account or use of brackets or signs reversed.
+For use of reversed signs, ensure that only one option is marked consistently.
+If no brackets, assume answer is an inflow of cash – award marks for workings only.
+If a workings amount is shown as a final figure, award the mark/s allocated, ignore the brackets.
+If correct figure is shown without brackets or workings, award all working marks only; not final mark.
+Accounting/P1 6 DBE/November 2024
+NSC – Marking Guidelines
+Copyright reserved Please turn over
+2.3
+Calculate the following for the year ended 29 February 2024:
+% operating expense on sales
+WORKINGS
+ANSWER
+1 360 950  x 100*
+8 240 600  1
+16,5%  one part correct
+calculated as a %
+% sign not necessary
+Accept 17%
+Do not accept 0,165/0,17
+3
+Stock turnover rate
+WORKINGS
+ANSWER
+5 060 000 ________
+½ (174 000  + 193 000 )
+183 500 two marks
+27,6 times  one part correct if average stock (x ½) is used
+Accept 28 times
+4
+Interim dividend per share
+WORKINGS
+ANSWER
+416 000  x 100*
+1 600 000  1
+[1 200 000 + 400 000]
+one mark
+26 cents  one part correct
+must be in cents; assume it is cents if not specified.
+Accept R0,26
+3
+• For EACH calculation, the ‘x 100’ does not constitute ‘one part correct’.
+• Numerator and denominator must be marked as such.
+• Do not award marks for any operations done to stand-alone figures. e.g. no tick if anything else is added to R1 360 950.
+TOTAL MARKS
+35
+Accounting/P1 7 DBE/November 2024
+NSC – Marking Guidelines
+Copyright reserved Please turn over
+QUESTION 3
+3.1
+Profitability:
+Quote TWO financial indicators with figures and trends to indicate that the company is managing its expenses well.
+Financial indicators ✓ ✓ figures and trends  ✓
+• % operating expenses on sales has decreased / improved (from 19%) to 14% / by 5%-points / by 26,3%.
+• % operating profit on sales has increased / improved (from 12%) to 18% /
+by 6%-points / by 50%.
+• % net profit before tax on sales has increased / improved (from 11%) to 19% / by 8%-points / by 72,7%.
+Do not accept mark-up %
+4
+3.2
+Dividends pay-out policy:
+Comment on the dividend pay-out policy of the company. Explain why this is a responsible change in policy. Provide ONE point.
+Figures and trend ✓
+• It decreased (from 86%) to 60% / by 26 %-points / by 30,2%.
+Explanation  part mark for unclear/incomplete answers
+Funds have been retained for future expansion purposes / shareholder will benefit in the future as funds have been set aside / protect the cash flow of the business.
+3
+3.3
+Earnings and returns:
+Explain whether the shareholders should be satisfied or not with the earnings per share and returns on average shareholders' equity of the company. Quote TWO financial indicators with figures.
+Earnings per share (EPS)
+• increased (from 104 cents) to 112 cents / by 8 cents / by 7,7 %. 
+• Shareholders should be happy as it shows an increase in the profitability of the company. 
+Return on average shareholders' equity (ROSHE)
+• increased (from 11%) to 20% / by 9%-points / by 81,8%. 
+• shareholders should be satisfied because ROSHE (20%) is greater than the interest rate on fixed deposit (7,5%). 
+4
+Accounting/P1 8 DBE/November 2024
+NSC – Marking Guidelines
+Copyright reserved Please turn over
+3.4
+Financing strategies and gearing:
+Refer to information C.
+The directors decided to buy new fixed assets in 2024 to enhance the company. Identify the TWO main sources (over R1m) that were used to finance this purchase. Provide figures.
+Source   figures  
+• Shares issued (sold), R2 970 000 (from 28 800 000) to 31 770 000 / by 10,3%
+• Increase in loan, R3 513 000 (from 9 400 000) to 12 913 000 / by 37,4%
+Do not accept: sale of fixed assets / cash and cash equivalents
+4
+Explain how the decisions affected the risk and gearing of the company. Quote TWO financial indicators with figures.
+Debt/equity ratio 
+• decreased / improved (from 0,5 : 1) to 0,2 : 1 / by 0,3 : 1. 
+• Company still has a low financial risk. 
+Return on average capital employed (ROTCE) 
+• increased (from 15%) to 24% / by 9%-points / by 60%. 
+• Company has positive gearing / ROTCE (24%) is greater than interest rate on loan (12%). 
+6
+Accounting/P1 9 DBE/November 2024
+NSC – Marking Guidelines
+Copyright reserved Please turn over
+3.5
+Grant Waters' % shareholding, rights issue and shares repurchased:
+Calculate:
+The number of shares that Grant bought through the rights issue on 31 October 2023.
+WORKINGS
+ANSWER
+1 620 000  x 10
+50 
+32 400 two marks
+Check numerator / denominator
+324 000 shares  If x 10
+3
+Grant's % shareholding after the rights issue on 29 February 2024.
+WORKINGS
+ANSWER
+see above
+(1 620 000  + 324 000 ) x 100
+3 600 000  1
+[3 000 000 + 600 000]
+54%  one part correct
+5
+one mark one m. mark
+OR (1 380 000 + 276 000 ) x 100 = 46%
+3 600 000 1
+two marks
+100% - 46%
+The total amount that Grant spent on the shares he acquired through the rights issue.
+NOTE: No shares were repurchased during the financial year.
+WORKINGS
+ANSWER
+see 3,4
+2 970 000 / 600 000
+324 000  x R4,95  see above
+R1 603 800  one part correct
+4
+OR see 3,4 (276 000 x 4,95)
+2 970 000 – 1 366 200
+one m. mark one mark one m. mark
+Note: award method mark if calculations are provided for R4,95.
+Grant intends to convince the board of directors to repurchase shares from him in the next financial year at R12 per share. Explain why the other board members would probably vote against this transaction proposed by Grant. Provide TWO points (with figures).
+Any TWO valid points  ✓ Figures  ✓ part mark for unclear/incomplete answers.
+• The repurchase price of (R12 / 1 200 cents) exceeds the market value per share of 950 cents / by 250 cents.
+• The repurchase price of (R12 / 1 200 cents) exceeds the NAV per share of 564 cents / by 636 cents.
+• He is taking advantage of his status as the majority shareholder.
+54% (see above) / This constitutes self-enrichment due to his position as the majority shareholder by 54% (see above).
+4
+Accounting/P1 10 DBE/November 2024
+NSC – Marking Guidelines
+Copyright reserved Please turn over
+3.6
+Role of the CEO:
+Explain TWO characteristics that shareholders would expect of a good CEO.
+Any TWO valid explanations ✓✓ ✓✓
+• Ability to set and communicate a clear vision of the company / have strong communication skills to effectively convey important information.
+• Maintain transparency with all stakeholders.
+• Ability to deliver consistent financial performance / understand financial management.
+• Ability to attract, develop and retain top talent.
+• Committed to ethical business practice with high standard of integrity.
+• Adapt quickly to change / respond to unexpected challenges.
+• Ability to identify and address the needs of various stakeholders / Make well informed decisions to manage risk and drive positive outcomes.
+• Creative in identifying new opportunities / allocate resources effectively to remain competitive in the market.
+4
+Apart from the factors and financial indicators covered in the previous questions, identify and explain TWO other points indicating that the company is well managed by the CEO. Quote figures.
+Financial indicators (with figures and trend) ✓ ✓ Explanation ✓ ✓
+• Solvency ratio increased / improved (from 2,8 : 1) to 3,8 : 1, the business has a stronger financial position.
+• Current ratio increased / improved (from 1,6 : 1) to 2,5:1 and the business ability to pay its short-term debts has strengthened.
+• Acid test ratio increased / improved (from 1,2 : 1) to 1,9 : 1 and the business has enough cash to cover its short-term debts.
+Do not accept mark-up %
+4
+TOTAL MARKS
+45
+Accounting/P1 11 DBE/November 2024
+NSC – Marking Guidelines
+Copyright reserved Please turn over
+QUESTION 4
+4.1
+Explain the role of an independent external auditor. Provide ONE point.
+Any suitable relevant response 
+• Provides an unbiased audit report on the financial statements of the company.
+• Presents an opinion on the fair presentation of the financial statements.
+• protects the interest of the shareholders/public.
+2
+4.2
+Choose the correct word from those in brackets. Write the answer and explain your choice.
+Valiant Ltd received a/an (qualified/unqualified/disclaimer of opinion) audit report.
+2
+AUDIT REPORT
+EXPLANATION
+Unqualified 
+Any suitable relevant response 
+• No errors / problems / irregularities were discovered.
+• Opinion indicates that the financial statement fairly present the financial situation of the company.
+4.3
+What kind of audit evidence does the independent external auditor examine to verify the fixed assets of a company? Provide TWO points.
+Any suitable relevant response  
+• confirm the physical existence of items listed on the fixed assets register.
+• check if calculations of depreciation are correct / check the correct depreciation rate was used.
+• Check the invoice/receipt against the cost price written on the fixed asset register if they are the same.
+• Check if correct procedure followed in procurement of new fixed assets/ check if correct procedures were followed in disposing of fixed assets.
+• Check the registration certificate / title deed to confirm ownership.
+Response for one mark:
+• Check the fixed asset register.
+• Check the logbook.
+• Verify source documents.
+4
+Accounting/P1 12 DBE/November 2024
+NSC – Marking Guidelines
+Copyright reserved
+4.4
+What are the implications of this audit report for the following:
+• Directors
+• Shareholders
+State ONE point in each case.
+IMPLICATIONS
+Directors
+Any suitable relevant response 
+• Will be reappointed by the shareholders.
+• Improves their credentials / reputation.
+4
+Shareholders
+Any suitable relevant response 
+• Satisfied that their investment is safe.
+• It will encourage further investment in the company.
+Note:
+1. Check the type of audit report identified in 4.2 and mark 4.4 accordingly.
+2. Disregard the audit report chosen in 4.2, if the candidate’s answer in 4.4 matches the MG above.
+4.5
+State THREE possible consequences for the independent external auditor if he was influenced by the directors of the company to deliberately provide the shareholders with an incorrect audit report.
+Any suitable relevant response 
+Accept one-word answers
+Possible consequences for auditor as employee:
+• deregistered / struck off the roll by IRBA (Accounting body) / loss of professional license / revocation of his certificate.
+• Disciplinary hearing / suspended (during investigation) / fired by his employer / fined / imprisonment (arrested)
+• sued by shareholders (company) for negligence (financial loss) / Bad reputation to his name.
+Possible consequences for company (auditor’s employer):
+• Lose clients / removed as auditors by clients / loss of employment to staff as number of client base decreases / Acquiring contracts will be challenging in the future / Bad image of the company.
+3
+TOTAL MARKS
+15
+TOTAL:
+150

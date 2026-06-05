@@ -1,0 +1,188 @@
+#!/usr/bin/env python3
+"""
+NSC_QBank - import_db.py
+CSV → SQLite importer for National Senior Certificate question bank
+
+Usage:
+    python import_db.py --data-dir ./data/csv --db ./nsc_qbank.db
+
+Features:
+- Scans a directory for *.csv files
+- Creates a normalized SQLite schema
+- Handles typical NSC columns: subject, year, paper, question, options, answer, etc.
+- Idempotent: re-running updates existing rows based on a content hash
+- UTF-8 safe for Afrikaans/isiZulu characters
+"""
+
+import argparse
+import hashlib
+import sqlite3
+from pathlib import Path
+import pandas as pd
+import sys
+
+# Expected canonical columns (lowercase). Script will map similar names.
+COLUMN_MAP = {
+    "subject": ["subject", "vak", "learning_area"],
+    "grade": ["grade", "graad"],
+    "year": ["year", "jaar", "exam_year"],
+    "paper": ["paper", "paper_no", "p"],
+    "section": ["section", "afdeling"],
+    "q_num": ["q_num", "question_number", "number", "no"],
+    "question": ["question", "question_text", "vraag", "stem"],
+    "option_a": ["a", "option_a", "opt_a", "choice_a"],
+    "option_b": ["b", "option_b", "opt_b", "choice_b"],
+    "option_c": ["c", "option_c", "opt_c", "choice_c"],
+    "option_d": ["d", "option_d", "opt_d", "choice_d"],
+    "answer": ["answer", "correct", "correct_answer", "memo", "antwoord"],
+    "explanation": ["explanation", "memo_text", "solution", "verduideliking"],
+    "marks": ["marks", "mark", "punt"],
+    "topic": ["topic", "chapter", "onderwerp"],
+    "difficulty": ["difficulty", "level"],
+    "source": ["source", "db_source", "file"],
+    "language": ["language", "lang", "taal"]
+}
+
+def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
+    df.columns = [c.strip().lower().replace(" ", "_") for c in df.columns]
+    rename = {}
+    for canonical, aliases in COLUMN_MAP.items():
+        for alias in aliases:
+            if alias in df.columns and canonical not in df.columns:
+                rename[alias] = canonical
+                break
+    return df.rename(columns=rename)
+
+def content_hash(row) -> str:
+    # Create stable hash for deduplication
+    key = "|".join([
+        str(row.get("subject","")),
+        str(row.get("year","")),
+        str(row.get("paper","")),
+        str(row.get("q_num","")),
+        str(row.get("question",""))[:200]
+    ])
+    return hashlib.sha256(key.encode("utf-8")).hexdigest()[:16]
+
+def create_schema(conn: sqlite3.Connection):
+    conn.executescript("""
+    PRAGMA journal_mode=WAL;
+    PRAGMA foreign_keys=ON;
+
+    CREATE TABLE IF NOT EXISTS questions (
+        id INTEGER PRIMARY KEY,
+        hash TEXT UNIQUE,
+        subject TEXT,
+        grade INTEGER,
+        year INTEGER,
+        paper TEXT,
+        section TEXT,
+        q_num TEXT,
+        question TEXT NOT NULL,
+        option_a TEXT,
+        option_b TEXT,
+        option_c TEXT,
+        option_d TEXT,
+        answer TEXT,
+        explanation TEXT,
+        marks REAL,
+        topic TEXT,
+        difficulty TEXT,
+        language TEXT,
+        source TEXT,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_questions_subject_year ON questions(subject, year);
+    CREATE INDEX IF NOT EXISTS idx_questions_topic ON questions(topic);
+    CREATE INDEX IF NOT EXISTS idx_questions_hash ON questions(hash);
+    """)
+    conn.commit()
+
+def import_csv(conn: sqlite3.Connection, csv_path: Path):
+    print(f"→ Reading {csv_path.name}")
+    try:
+        df = pd.read_csv(csv_path, dtype=str, keep_default_na=False, encoding="utf-8")
+    except UnicodeDecodeError:
+        df = pd.read_csv(csv_path, dtype=str, keep_default_na=False, encoding="latin1")
+    
+    df = normalize_columns(df)
+    df["source"] = csv_path.stem
+    df["hash"] = df.apply(content_hash, axis=1)
+
+    # Ensure all columns exist
+    for col in COLUMN_MAP.keys():
+        if col not in df.columns:
+            df[col] = None
+
+    # Clean types
+    df["grade"] = pd.to_numeric(df["grade"], errors="coerce")
+    df["year"] = pd.to_numeric(df["year"], errors="coerce")
+    df["marks"] = pd.to_numeric(df["marks"], errors="coerce")
+
+    cols = ["hash","subject","grade","year","paper","section","q_num","question",
+            "option_a","option_b","option_c","option_d","answer","explanation",
+            "marks","topic","difficulty","language","source"]
+
+    df = df[cols]
+
+    # Insert with upsert
+    cur = conn.cursor()
+    inserted = 0
+    updated = 0
+    for _, r in df.iterrows():
+        cur.execute("""
+            INSERT INTO questions (hash,subject,grade,year,paper,section,q_num,question,
+                option_a,option_b,option_c,option_d,answer,explanation,marks,topic,difficulty,language,source)
+            VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+            ON CONFLICT(hash) DO UPDATE SET
+                question=excluded.question,
+                option_a=excluded.option_a,
+                option_b=excluded.option_b,
+                option_c=excluded.option_c,
+                option_d=excluded.option_d,
+                answer=excluded.answer,
+                explanation=excluded.explanation,
+                marks=excluded.marks,
+                topic=excluded.topic,
+                difficulty=excluded.difficulty,
+                language=excluded.language,
+                source=excluded.source
+        """, tuple(r))
+        if cur.rowcount == 1:
+            inserted += 1
+        else:
+            updated += 1
+    conn.commit()
+    print(f"  ✓ {inserted} new, {updated} updated")
+
+def main():
+    parser = argparse.ArgumentParser(description="Import NSC CSVs into SQLite")
+    parser.add_argument("--data-dir", default="./data/csv", help="Folder containing CSV files")
+    parser.add_argument("--db", default="./nsc_qbank.db", help="Output SQLite file")
+    args = parser.parse_args()
+
+    data_dir = Path(args.data_dir)
+    if not data_dir.exists():
+        print(f"Error: {data_dir} not found", file=sys.stderr)
+        sys.exit(1)
+
+    conn = sqlite3.connect(args.db)
+    create_schema(conn)
+
+    csv_files = sorted(data_dir.glob("*.csv"))
+    if not csv_files:
+        print(f"No CSV files found in {data_dir}")
+        return
+
+    for csv_path in csv_files:
+        import_csv(conn, csv_path)
+
+    # Summary
+    total = conn.execute("SELECT COUNT(*) FROM questions").fetchone()[0]
+    print(f"
+Done. Database: {args.db} — {total} total questions")
+    conn.close()
+
+if __name__ == "__main__":
+    main()
